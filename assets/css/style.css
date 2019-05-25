@@ -123,17 +123,6 @@ h5{
   background-color:#ff3300;
 }
 
-a:link {
-  color: #fff;
-}
-
-a:hover {
-  color: #fff;
-}
-
-a:active {
-  color: #fff;
-}
 
 .bgf{
   background-color: #ff3300;
@@ -141,10 +130,8 @@ a:active {
 
 
 
-//*.ftext{
-  margin-right:15%;
+a:visited { text-decoration: none; color:#fff; }
+a:hover { text-decoration: none; color:#fff; }
+a:focus { text-decoration: none; color:#fff; }
+a:hover, a:active { text-decoration: none; color:#fff }
 }
-
-.itext{
-  margin-left:15%;
-}*//
