@@ -1,0 +1,154 @@
+body {
+  font-family:'Dosis', sans-serif;
+  background-color: #fff;
+
+}
+
+.logot{
+  font-family: 'Overpass';
+  font-weight: 700;
+  color:#00ccff;
+  font-size: 1.5em;
+  line-height:normal;
+}
+
+.logob{
+  font-family: 'Dosis';
+  font-weight: 700;
+  color:#fff;
+  font-size: 1.1em;
+  line-height:normal;
+  font-style:italic;
+}
+
+
+.header {
+  background-image: url('../img/bg-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 0rem;
+}
+
+.texth{
+  padding-top:25rem;
+}
+
+@media (max-width:764px) {
+  .texth{
+  padding-top:16rem;
+  font-size: 3em;
+  }
+  .ftext{
+    margin-right:0rem;
+    text-align: center;
+  }
+  .itext{
+    text-align: center;
+    margin-left:0rem;
+  }
+}
+
+p{
+  font-family:'Overpass', sans-serif;
+  font-weight: 400;
+  color:#fff;
+  font-size: 17px;
+  text-align: left;
+}
+
+.h2, .introduccion{
+  font-family:'Dosis';
+  font-weight: 700;
+  color:#3d5c5c;
+}
+
+h5{
+  text-align: left;
+}
+
+.modtext{
+  font-family:'Overpass', sans-serif;
+  font-weight: 400;
+  color:#3d5c5c;
+  font-size: 14px;
+  text-align: left;
+}
+
+
+
+.sobrem{
+  font-family:'Dosis', sans-serif;
+  font-weight: 400;
+  color:#3d5c5c;
+  font-size: 16px;
+  text-align: left;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 0px;
+    border: 2px solid #fff;
+    border-radius: 20%;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    margin: center;
+    align-content: center;
+}
+.fa-angle-double-down:before {
+    content: "\f103";
+}
+
+#intro {
+    background: url(../img/img01.jpg) 10% 0 fixed ;
+    min-height: 300px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.introduccion {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 100px;
+}
+
+.container-fot, .icons-section-fot{
+  display: inline-block;
+}
+
+.icons-section-fot{
+  color:#fff;
+  text-decoration: none;
+
+}
+
+.icons-section{
+  background-color:#ff3300;
+}
+
+a:link {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:active {
+  color: #fff;
+}
+
+
+
+.ftext{
+  margin-right:15%;
+}
+
+.itext{
+  margin-left:15%;
+}
