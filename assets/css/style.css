@@ -39,14 +39,6 @@ body {
   padding-top:16rem;
   font-size: 3em;
   }
-  .ftext{
-    margin-right:0rem;
-    text-align: center;
-  }
-  .itext{
-    text-align: center;
-    margin-left:0rem;
-  }
 }
 
 p{
@@ -141,6 +133,10 @@ a:hover {
 
 a:active {
   color: #fff;
+}
+
+.bgf{
+  background-color: #ff3300;
 }
 
 
